@@ -4,6 +4,7 @@ from BlueBrain import NeuralNetwork as nn
 input_layer_size = 2
 secret_layer_size = 4
 secret_layer_count = 32
+
 generation_count = 20
 
 test_nn = nn.NeuralNetwork(input_layer_size, secret_layer_size, secret_layer_count,
